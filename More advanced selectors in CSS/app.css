@@ -1,0 +1,39 @@
+/*Element*/
+li {
+
+}
+
+/*Class*/
+.hello {
+
+}
+
+/*id*/
+#list {
+
+}
+
+/*Star*/
+* {
+	/*Applies to entire body of HTML*/
+}
+
+/*Descendant Selectors*/
+li a {
+	/*Nested... means jitne bhi li k andar a tag hoga unke liye*/
+
+}
+
+/*Adjacent Selector*/
+h4 + a {
+	/*h4 k baad jitne bhi a tag hai unke liye*/
+}
+
+/*Attribute Selector*/
+a[href="http://www.google.com"] {
+	background: blue;
+}
+/*nth of type*/
+ul:nth-of-type(3) {
+	/*Sare ul me 3rd element*/
+}
